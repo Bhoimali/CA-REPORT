@@ -1,23 +1,55 @@
-
-  <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="hi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>BhoiMali-CA</title>
+<title>Tech Panel</title>
 
 <style>
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow: hidden;
 }
 
+/* Iframe */
 iframe {
   width: 100%;
-   height: 100%;
+  height: calc(100vh - 45px);
   border: 0;
+}
+
+/* Developer Bar */
+.developerBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(45deg, #111, #2563eb);
+  color: #fff;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  z-index: 9999;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.developerBar marquee {
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  iframe {
+    height: calc(100vh - 42px);
+  }
+
+  .developerBar {
+    font-size: 14px;
+    padding: 6px 0;
+  }
 }
 </style>
 </head>
@@ -25,9 +57,17 @@ iframe {
 <body>
 
 <iframe
-  src="https://script.google.com/macros/s/AKfycbz0YocQ-g9RmE4-Kc8_lh4gon6wjWDyetPCWxlv8e16xVNCr8GoWunikhZAV3zcD0mz/exec"
-  allow="fullscreen">
+  src="https://script.google.com/macros/s/AKfycbzo4fgJ0JRjj1Im0cyX-7IjGT8NyZjKzxn0yiEFaPqdWQGGsZa7qLlgvJ7tDx0Ijn575Q/exec"
+  allowfullscreen>
 </iframe>
+
+<div class="developerBar">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    ✨ Website Developed By Ramesh Chandra Mali | 9667972960 |
+    Complaint Resolution Portal |
+    Mobile Responsive Secure System 🚀
+  </marquee>
+</div>
 
 </body>
 </html>
