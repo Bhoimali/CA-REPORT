@@ -1,0 +1,34 @@
+
+  <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>Tech Panel</title>
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+iframe {
+  width: 100%;
+   height: 100%;
+  border: 0;
+}
+</style>
+</head>
+
+<body>
+
+<iframe
+  src="https://script.google.com/macros/s/AKfycbz0YocQ-g9RmE4-Kc8_lh4gon6wjWDyetPCWxlv8e16xVNCr8GoWunikhZAV3zcD0mz/exec"
+  allow="fullscreen">
+</iframe>
+
+</body>
+</html>
+
